@@ -26,12 +26,10 @@ frame_Corpo.grid(row=1, column=0)
 
 todos_Valores = ''
 
-
 #CRIANDO LABEL
 valor_texto = StringVar()
 app_lab = Label(frame_Tela, textvariable= valor_texto, width=16, height=2, padx=7, relief=FLAT, anchor="e", justify=RIGHT, font=('Ivy 18 '),bg=cor3)
 app_lab.place(x=0,y=0)
-
 
 # CRIANDO FUNÇÃO 
 def entrada_Valores(event):
